@@ -16,18 +16,18 @@ A school project inspired by the original Core War by Jones & Dewdney.
 
 ### Compile options
 >make
->make re
->make clean
->make fclean
+make re
+make clean
+make fclean
 
-#### Corewar virtual machine flags
+### Corewar virtual machine flags
 Dumps memory after N cycles then exits:
 >./corewar -dump N
 
 Prints output from "aff" (Default is to hide it):
 >./corewar -a
 
-### Extended Explanation
+## Extended Explanation
 This project consists out of two modules, the ASM assembler and the Corewar virtual machine. ASM can take a champion's code, written in (pseudo)assembly, and convert it into (pseudo)machinecode.
 
 Champion code looks like this example champion, *zork.s*
@@ -40,13 +40,19 @@ Champion code looks like this example champion, *zork.s*
 >live:	live %1
 		zjmp %:live
 
-Which the ASM assembles into *zork.cor*.
+It is a kind of pseudo-assembly that can contain one of about a dozen instructions. It can range from something as simple as reporting to the *Corewar* VM that the champion is still alive, to something as complex as cloning the champion-process("cursor") onto another position in the arena.
+
+The ASM then assembles the *zork.s* into a *zork.cor*.
 When we run it without an opponent like `./corewar -dump 1000 zork.cor`,
 and make it dump the core(memory arena) after 1000 cycles,
 it will look like this:
 ![](https://i.imgur.com/UOJW6ot.png)
 The code on the first line is *zork.s*' s assembly code,
-converted into hexadecimal bytecode,
+converted into *zork.cor*'s hexadecimal bytecode,
 which can be read and executed by the *corewar* virtual machine.
+The virtual machine reads the code from left to right, and executes it accordingly. Code can also jump back to the left with a `zjump` command.
 
-The syntax on how to write a champion and how to understand and interpret bytecode is somewhat complex. For more information you can read through the assignment PDF.
+The syntax on how to write a champion and how to understand and interpret bytecode is somewhat complex. For more information you can read through [the assignment PDF](https://docdro.id/9pVK3Wi "the assignment PDF").
+
+For more information on the original Core War,
+read [this](https://en.wikipedia.org/wiki/Core_War "this") wikipedia article.

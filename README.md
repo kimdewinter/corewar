@@ -6,6 +6,7 @@ It is a school project inspired by the original Core War by D.G. Jones & A.K. De
 
 ## Quick Start
 - clone the repository
+- if necessary, install [the ncurses library](https://ostechnix.com/how-to-install-ncurses-library-in-linux/ "the ncurses library")
 - compile the assembler and virtual machine with:
 >make 
 - assemble the champions with:

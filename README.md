@@ -2,17 +2,17 @@
 A game for programmer-connoiseurs of assembly, bytecode & strategy.
 
 Written in C, tested and compatible with macOS and Linux.<br/>
-It is a school project inspired by the original Core War by Jones & Dewdney.
+It is a school project inspired by the original Core War by D.G. Jones & A.K. Dewdney.
 
 ## Quick Start
 - clone the repository
 - compile the assembler and virtual machine with:
 >make 
 - assemble the champions with:
->./asm champs/kire_carpetbomber.s
+>./asm champs/kire_carpetbomber.s<br/>
 >./asm champs/zork.s
 - make it fight in the arena with:
->./corewar champs/kire_carpetbomber.s champs/zork.s
+>./corewar champs/kire_carpetbomber.cor champs/zork.cor
 
 ### Compile options
 >make<br/>
@@ -54,10 +54,9 @@ The code on the first line is *zork.s*' s assembly code,<br/>
 converted into *zork.cor*'s hexadecimal bytecode,<br/>
 which can be read and executed by the *corewar* virtual machine.<br/>
 The virtual machine reads the code from left to right, and executes it accordingly.<br/>
-Code can also jump back to the left with a `zjump` command.<br/>
+Code can also jump back to the left with a `zjump` command, which forms a loop.<br/>
 
 The syntax on how to write a champion and how to understand and interpret bytecode is somewhat complex.<br/>
 For more information you can read through [the assignment PDF](https://docdro.id/9pVK3Wi "the assignment PDF").
 
-For more information on the original Core War,<br/>
-read [this](https://en.wikipedia.org/wiki/Core_War "this") wikipedia article.
+For more information on the original Core War, read [this](https://en.wikipedia.org/wiki/Core_War "this") wikipedia article.

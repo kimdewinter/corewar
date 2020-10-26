@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_printf.h                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/07/24 13:23:12 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/06/03 17:03:09 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/07/24 13:23:12 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:57:20 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   printing.c                                         :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/14 19:15:50 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/09/17 14:51:49 by rheuts        ########   odam.nl         */
+/*   Created: 2020/09/14 19:15:50 by lravier       #+#    #+#                 */
+/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

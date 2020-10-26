@@ -3,10 +3,10 @@
 #                                                         ::::::::             #
 #    Makefile                                           :+:    :+:             #
 #                                                      +:+                     #
-#    By: dsaripap <marvin@codam.nl>                   +#+                      #
+#    By: kde-wint <kde-wint@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
-#    Created: 2019/03/27 14:38:43 by dsaripap      #+#    #+#                  #
-#    Updated: 2020/09/18 13:02:14 by dsaripap      ########   odam.nl          #
+#    Created: 2019/03/27 14:38:43 by kde-wint      #+#    #+#                  #
+#    Updated: 2020/10/26 15:09:03 by kim           ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 

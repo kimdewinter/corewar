@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_lstsort.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/04/10 18:41:45 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/05/02 13:21:27 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/04/10 18:41:45 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

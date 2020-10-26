@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   player.c                                           :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/08/12 18:54:49 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/09/17 22:48:38 by rheuts        ########   odam.nl         */
+/*   Created: 2020/08/12 18:54:49 by lravier       #+#    #+#                 */
+/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

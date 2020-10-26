@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_lstadd.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/04/08 13:24:06 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/05/02 12:55:57 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/04/08 13:24:06 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:53 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

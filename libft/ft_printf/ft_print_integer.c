@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_print_integer.c                                 :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/10/13 13:53:58 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/10/13 13:54:02 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/10/13 13:53:58 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

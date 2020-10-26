@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_atoi.c                                          :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/03/31 14:04:50 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/04/29 15:34:01 by dominique     ########   odam.nl         */
+/*   Created: 2019/03/31 14:04:50 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:53 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

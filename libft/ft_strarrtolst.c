@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_strarrtolst.c                                   :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/04/09 19:47:07 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/05/02 13:27:25 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/04/09 19:47:07 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

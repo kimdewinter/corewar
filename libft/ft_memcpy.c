@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_memcpy.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/03/25 17:23:18 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/05/02 13:22:59 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/03/25 17:23:18 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:53 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

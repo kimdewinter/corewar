@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   cursors.c                                          :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/14 19:14:03 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/09/14 19:14:05 by rheuts        ########   odam.nl         */
+/*   Created: 2020/09/14 19:14:03 by lravier       #+#    #+#                 */
+/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

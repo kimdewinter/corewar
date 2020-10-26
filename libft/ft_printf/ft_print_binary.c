@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_print_binary.c                                  :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/16 19:40:27 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/05/28 06:52:45 by dominique     ########   odam.nl         */
+/*   Created: 2019/11/16 19:40:27 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

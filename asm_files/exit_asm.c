@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   exit_asm.c                                         :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: svan-der <svan-der@student.codam.nl>         +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/18 10:56:41 by svan-der      #+#    #+#                 */
-/*   Updated: 2020/09/18 10:56:45 by svan-der      ########   odam.nl         */
+/*   Created: 2020/09/18 10:56:41 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:54:49 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

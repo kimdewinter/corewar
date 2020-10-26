@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_zero_arg.c                                      :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/10/17 18:49:42 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/05/28 06:56:47 by dominique     ########   odam.nl         */
+/*   Created: 2019/10/17 18:49:42 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

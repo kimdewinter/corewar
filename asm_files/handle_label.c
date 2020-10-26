@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   handle_label.c                                     :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/17 20:39:27 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/09/17 21:53:31 by dsaripap      ########   odam.nl         */
+/*   Created: 2020/09/17 20:39:27 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:53 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

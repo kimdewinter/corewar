@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   write_data2.c                                      :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: svan-der <svan-der@student.codam.nl>         +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/05 15:26:36 by svan-der      #+#    #+#                 */
-/*   Updated: 2020/09/17 19:33:27 by svan-der      ########   odam.nl         */
+/*   Created: 2020/09/05 15:26:36 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:54:49 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

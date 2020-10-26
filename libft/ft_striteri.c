@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_striteri.c                                      :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/04/01 15:58:15 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/01 16:01:41 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/04/01 15:58:15 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:53 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

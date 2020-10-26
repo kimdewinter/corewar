@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_isalpha.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/03/31 18:36:14 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/10/03 14:29:08 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/03/31 18:36:14 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:59 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   op_sti.c                                           :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <dsaripap@student.codam.nl>         +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/08/08 18:55:58 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/09/14 20:58:00 by rheuts        ########   odam.nl         */
+/*   Created: 2020/08/08 18:55:58 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:51:44 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

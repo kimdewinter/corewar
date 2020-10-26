@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_del.c                                           :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/04/11 14:45:06 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/05/28 14:05:12 by dominique     ########   odam.nl         */
+/*   Created: 2019/04/11 14:45:06 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

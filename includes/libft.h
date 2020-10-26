@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   libft.h                                            :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/04/01 17:11:12 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/09/18 13:04:04 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/04/01 17:11:12 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:57:20 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

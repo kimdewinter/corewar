@@ -6,11 +6,18 @@
 /*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:13:56 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/09/18 13:05:50 by dsaripap      ########   odam.nl         */
+/*   Updated: 2020/10/26 15:38:57 by simoncleerd   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/corewar.h"
+
+static int	missing_argument(void)
+{
+	ft_printf("[Error] Usage: ./corewar [-dump number] "
+		"[[-n number] .cor] ...\n");
+	return (1);
+}
 
 static void	intro_player(t_env *game, int id)
 {
@@ -66,8 +73,7 @@ int			main(int argc, char **argv)
 	t_env	*game;
 
 	if (argc < 2)
-		exit(ft_printf("[Error] Usage: ./corewar [-dump number] "
-		"[[-n number] .cor] ...\n"));
+		return (missing_argument());
 	game = new_env(argc, argv);
 	if (parse_args(game) == FALSE)
 		return (0);

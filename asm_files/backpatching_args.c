@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/17 18:39:26 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
+/*   Updated: 2020/10/27 19:52:24 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,11 +59,11 @@ int				backpatching_ins_lst(t_ph *ph_lst, t_data *data)
 	{
 		ins = return_ins(&data->ins_lst, ph_lst->ins_id);
 		if (ins == NULL)
-			return (asm_error(ARG_ERR, LBL_REF_INV, data->num_lines));
+			return (asm_error(ARG_ERR, LBL_REF_INV_BCKP, data->num_lines));
 		ins->index = ph_lst->arg_id;
 		ret = find_labelbkp_arg(data, ins, ph_lst);
 		if (ret == ERROR)
-			return (asm_error(ARG_ERR, LBL_REF_INV, data->num_lines));
+			return (asm_error(ARG_ERR, LBL_REF_INV_BCKP, data->num_lines));
 		ph_lst = ph_lst->next;
 	}
 	return (SUCCESS);

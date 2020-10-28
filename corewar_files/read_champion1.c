@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   read_champion1.c                                   :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/03 14:13:44 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/09/18 11:18:21 by rheuts        ########   odam.nl         */
+/*   Created: 2020/09/03 14:13:44 by lravier       #+#    #+#                 */
+/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

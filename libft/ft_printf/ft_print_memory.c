@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_print_memory.c                                  :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/26 15:29:34 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/11/26 15:29:38 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/11/26 15:29:34 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   set_op_arg.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/08/31 16:17:52 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/08/31 16:18:58 by rheuts        ########   odam.nl         */
+/*   Created: 2020/08/31 16:17:52 by lravier       #+#    #+#                 */
+/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

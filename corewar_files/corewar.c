@@ -3,7 +3,7 @@
 /*                                                        ::::::::            */
 /*   corewar.c                                          :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:13:56 by rheuts        #+#    #+#                 */
 /*   Updated: 2020/10/26 15:38:57 by simoncleerd   ########   odam.nl         */

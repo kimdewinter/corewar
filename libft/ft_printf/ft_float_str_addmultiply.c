@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_float_str_addmultiply.c                         :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/10/31 12:55:48 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/10/31 12:55:52 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/10/31 12:55:48 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_clear_all.c                                     :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/10/30 09:51:29 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/10/30 09:51:31 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/10/30 09:51:29 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_putnbr_base.c                                   :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/08/13 00:20:08 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/08/13 00:58:43 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/08/13 00:20:08 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

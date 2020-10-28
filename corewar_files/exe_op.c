@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   exe_op.c                                           :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/08/31 15:55:26 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/09/14 19:40:32 by rheuts        ########   odam.nl         */
+/*   Created: 2020/08/31 15:55:26 by lravier       #+#    #+#                 */
+/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

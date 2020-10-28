@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_common_functions.c                              :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/12/15 20:08:37 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/12/15 20:08:41 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/12/15 20:08:37 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

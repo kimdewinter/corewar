@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   op_zjmp.c                                          :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/08/30 14:07:23 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/09/14 19:22:30 by rheuts        ########   odam.nl         */
+/*   Created: 2020/08/30 14:07:23 by lravier       #+#    #+#                 */
+/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

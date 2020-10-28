@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_strreplace.c                                    :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/05/05 20:25:27 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/05/05 20:29:32 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/05/05 20:25:27 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:53 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_strnew_un.c                                     :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/04/01 14:10:34 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/08/28 13:38:10 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/04/01 14:10:34 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

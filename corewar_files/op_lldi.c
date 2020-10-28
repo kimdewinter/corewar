@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   op_lldi.c                                          :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/01 18:23:19 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/09/14 20:57:40 by rheuts        ########   odam.nl         */
+/*   Created: 2020/09/01 18:23:19 by lravier       #+#    #+#                 */
+/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

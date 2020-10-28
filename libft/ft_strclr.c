@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_strclr.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/04/01 15:46:32 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/01 15:48:16 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/04/01 15:46:32 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:52 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

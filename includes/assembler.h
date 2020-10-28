@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   assembler.h                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: svan-der <svan-der@student.codam.nl>         +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/18 11:05:53 by svan-der      #+#    #+#                 */
-/*   Updated: 2020/09/18 11:53:10 by svan-der      ########   odam.nl         */
+/*   Created: 2020/09/18 11:05:53 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/27 19:49:06 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,7 @@
 # define INV_REG -3
 # define INV_TYPE_ARGS -4
 # define INV_ARG -5
+# define LBL_REF_INV_BCKP -6
 
 # define SYNT_ERR 4
 # define INV_CHAR -1

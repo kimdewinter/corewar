@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   get_args.c                                         :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dsaripap <marvin@codam.nl>                   +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/17 18:54:16 by dsaripap      #+#    #+#                 */
-/*   Updated: 2020/09/17 20:11:27 by dsaripap      ########   odam.nl         */
+/*   Created: 2020/09/17 18:54:16 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:58:53 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

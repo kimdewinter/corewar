@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_atoll.c                                         :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: dominique <dominique@student.codam.nl>       +#+                     */
+/*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/04/29 15:34:33 by dominique     #+#    #+#                 */
-/*   Updated: 2020/04/29 15:35:25 by dominique     ########   odam.nl         */
+/*   Created: 2020/04/29 15:34:33 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/26 14:59:49 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

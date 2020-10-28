@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   asm_errors.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: svan-der <svan-der@student.codam.nl>         +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/18 10:58:55 by svan-der      #+#    #+#                 */
-/*   Updated: 2020/09/18 10:58:59 by svan-der      ########   odam.nl         */
+/*   Created: 2020/09/18 10:58:55 by kde-wint      #+#    #+#                 */
+/*   Updated: 2020/10/27 19:57:19 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,6 +83,9 @@ static int			arg_err(int err, int line)
 	else if (err == INV_ARG)
 		ft_dprintf(STDERR_FILENO,
 			"ERROR: INVALID ARGUMENT FOUND ON LINE %d\n", line);
+	else if (err == LBL_REF_INV_BCKP)
+		ft_dprintf(STDERR_FILENO,
+			"ERROR: REFERENCE TO UNDEFINED LABEL FOUND WHILE BACKPATCHING\n");
 	ft_printf(ANSI_COLOR_RESET);
 	return (ERROR);
 }

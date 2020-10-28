@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   op_aff.c                                           :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: rheuts <rheuts@student.codam.nl>             +#+                     */
+/*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/09/01 20:35:58 by rheuts        #+#    #+#                 */
-/*   Updated: 2020/09/05 19:44:07 by rheuts        ########   odam.nl         */
+/*   Created: 2020/09/01 20:35:58 by lravier       #+#    #+#                 */
+/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

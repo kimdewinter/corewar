@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:16:12 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 12:44:07 by kde-wint      ########   odam.nl         */
+/*   Updated: 2020/10/30 13:28:27 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -172,13 +172,13 @@ void					print_champions(t_env *game);
 void					print_cursors(t_env *game);
 void					print_arena(t_env *game);
 int						read_champion(t_env *arena);
-void					read_champion_code(int fd, t_player *new);
-void					read_comment(int fd, t_player *new);
-int						read_file(t_player *new);
+void					read_champion_code(int fd, t_player *new, t_env *game);
+void					read_comment(int fd, t_player *new, t_env *game);
+int						read_file(t_player *new, t_env *game);
 void					read_magic_header(int fd, t_player *new);
 void					read_null_bytes(int fd, t_player *new);
 void					read_prog_name_length(int fd, t_player *new);
-void					read_prog_size(int fd, t_player *new);
+void					read_prog_size(int fd, t_player *new, t_env *game);
 void					reset_op(t_cursor *cur);
 void					reverse_mem(void *s, size_t n);
 int						save_player(t_env *game, int rank_n, int rank_a);

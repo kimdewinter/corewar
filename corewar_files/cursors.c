@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:14:03 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:54:52 by simoncleerd   ########   odam.nl         */
+/*   Updated: 2020/10/30 14:07:43 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ void		init_cursors(t_env *game)
 	{
 		new = new_cursor(game);
 		if (new == NULL)
-			handle_error(game, "[Error] Failed memory allocation for cursur\n");
+			handle_error(game, "[Error] Failed memory allocation for cursor\n");
 		game->cursor_total++;
 		champ = get_id(game, id);
 		if (!champ)

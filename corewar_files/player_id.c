@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/08/12 18:50:04 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:37:14 by simoncleerd   ########   odam.nl         */
+/*   Updated: 2020/10/30 13:56:54 by simoncleerd   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,13 @@ static void	assign_flag_id(t_env *game, t_player **rank)
 	while (walker)
 	{
 		if (walker->rank_n > game->champ_count)
-			handle_error(game, "[Error] Usage: ./corewar [-dump number] \
-			[[-n number] file.cor] ...\n");
+			handle_error(game, "[Error] A player ID can not exceed " \
+			"the number of players\n");
 		else if (walker->id == 0 && walker->rank_n != 0)
 		{
 			if (rank[walker->rank_n - 1] != NULL)
-				handle_error(game, "[Error] Usage: ./corewar \
-				[-dump number] [[-n number] file.cor] ...\n");
+				handle_error(game, "[Error] Players can not have the " \
+				"same ID\n");
 			walker->id = walker->rank_n;
 			rank[walker->id - 1] = walker;
 		}
@@ -61,12 +61,12 @@ int			assign_id(t_env *game)
 	rank = (t_player **)ft_memalloc(sizeof(t_player *) * \
 	(game->champ_count + 1));
 	if (!rank)
-		exit(ft_printf("[Error] Failed memory allocation\n"));
+		handle_error(game, "[Error] Failed memory allocation\n");
 	if (game->champ_count > MAX_PLAYERS)
-		exit(ft_printf("[Error] The number of players exceed the " \
-		"game limit\n"));
+		handle_error(game, "[Error] The number of players exceed the " \
+		"game limit\n");
 	if (game->champ_count == 0)
-		exit(ft_printf("[Error] Missing players\n"));
+		handle_error(game, "[Error] Missing players\n");
 	assign_flag_id(game, rank);
 	assign_rest_id(game, rank);
 	free(rank);

@@ -6,7 +6,11 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:16:12 by lravier       #+#    #+#                 */
+<<<<<<< HEAD
 /*   Updated: 2020/10/30 13:25:02 by kde-wint      ########   odam.nl         */
+=======
+/*   Updated: 2020/10/30 13:23:49 by simoncleerd   ########   odam.nl         */
+>>>>>>> aee89573620e83fa9a68db3402f3c01268bc7c24
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -147,7 +151,7 @@ int						is_valid_encode_arg(t_env *game, t_cursor *cur);
 int						is_flag(t_env *game, int *i);
 int						is_num(t_env *game, int i);
 void					move_cursor(t_cursor *cur);
-t_cursor				*new_cursor(void);
+t_cursor				*new_cursor(t_env *game);
 t_env					*new_env(int argc, char **argv);
 t_header				*new_header(void);
 t_player				*new_player(void);

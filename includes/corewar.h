@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:16:12 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:28:27 by lravier       ########   odam.nl         */
+/*   Updated: 2020/10/30 13:39:56 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -147,7 +147,7 @@ int						is_valid_encode_arg(t_env *game, t_cursor *cur);
 int						is_flag(t_env *game, int *i);
 int						is_num(t_env *game, int i);
 void					move_cursor(t_cursor *cur);
-t_cursor				*new_cursor(void);
+t_cursor				*new_cursor(t_env *game);
 t_env					*new_env(int argc, char **argv);
 t_header				*new_header(void);
 t_player				*new_player(void);
@@ -175,10 +175,12 @@ int						read_champion(t_env *arena);
 void					read_champion_code(int fd, t_player *new, t_env *game);
 void					read_comment(int fd, t_player *new, t_env *game);
 int						read_file(t_player *new, t_env *game);
-void					read_magic_header(int fd, t_player *new);
-void					read_null_bytes(int fd, t_player *new);
-void					read_prog_name_length(int fd, t_player *new);
 void					read_prog_size(int fd, t_player *new, t_env *game);
+void					read_magic_header(t_env *game, int fd, t_player *new);
+void					read_null_bytes(t_env *game, int fd, t_player *new);
+void					read_prog_name_length(t_env *game,
+												int fd,
+												t_player *new);
 void					reset_op(t_cursor *cur);
 void					reverse_mem(void *s, size_t n);
 int						save_player(t_env *game, int rank_n, int rank_a);

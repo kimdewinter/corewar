@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:16:12 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
+/*   Updated: 2020/10/30 13:21:17 by simoncleerd   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -146,7 +146,7 @@ int						is_valid_encode_arg(t_env *game, t_cursor *cur);
 int						is_flag(t_env *game, int *i);
 int						is_num(t_env *game, int i);
 void					move_cursor(t_cursor *cur);
-t_cursor				*new_cursor(void);
+t_cursor				*new_cursor(t_env *game);
 t_env					*new_env(int argc, char **argv);
 t_header				*new_header(void);
 t_player				*new_player(void);

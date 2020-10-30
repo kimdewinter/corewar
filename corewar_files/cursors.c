@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:14:03 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:19:48 by simoncleerd   ########   odam.nl         */
+/*   Updated: 2020/10/30 13:54:52 by simoncleerd   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,7 @@ t_cursor	*new_cursor(t_env *game)
 
 	new = (t_cursor *)ft_memalloc(sizeof(t_cursor));
 	if (new == NULL)
-			handle_error(game, "[Error] Usage: ./corewar [-dump number] \
-			[[-n number] file.cor] ...\n");
+		handle_error(game, "[Error] Failed memory allocation\n");
 	return (new);
 }
 
@@ -48,13 +47,11 @@ void		init_cursors(t_env *game)
 	{
 		new = new_cursor(game);
 		if (new == NULL)
-			handle_error(game, "[Error] Usage: ./corewar [-dump number] \
-			[[-n number] file.cor] ...\n");
+			handle_error(game, "[Error] Failed memory allocation for cursur\n");
 		game->cursor_total++;
 		champ = get_id(game, id);
 		if (!champ)
-			handle_error(game, "[Error] Usage: ./corewar [-dump number] \
-			[[-n number] file.cor] ...\n");
+			handle_error(game, "[Error] Could not find player ID\n");
 		new->pos = (MEM_SIZE / game->champ_count) * (id - 1);
 		champ->pos = new->pos;
 		new->id = id;

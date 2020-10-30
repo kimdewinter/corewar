@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:53:59 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:36:28 by simoncleerd   ########   odam.nl         */
+/*   Updated: 2020/10/30 13:52:08 by simoncleerd   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,8 +48,7 @@ static int	is_dump_flag(t_env *game, int *i)
 			if (n > 0)
 				game->flag_dump = n;
 			else
-				handle_error(game, "[Error] Usage: ./corewar \
-				[-dump number] [[-n number] file.cor] ...\n");
+				handle_error(game, "[Error] Dump number must be higher than 0\n");
 			*i = j;
 			return (TRUE);
 		}

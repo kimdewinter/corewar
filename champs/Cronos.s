@@ -12,8 +12,8 @@ life1: 	live %42
 		fork %:life1
 loop3: 	sti r1, %:life1, %1
 		xor r15, r15, r15
-		zjmp %:life1
+		zjmp %:loop2
 loop4:	sti r1, %:life1, %1
 		xor r15, r15, r15
-		zjmp %:loop2
+		zjmp %:loop3
 end:

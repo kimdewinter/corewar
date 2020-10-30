@@ -6,7 +6,7 @@
 /*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/18 10:56:41 by kde-wint      #+#    #+#                 */
-/*   Updated: 2020/10/26 14:54:49 by kim           ########   odam.nl         */
+/*   Updated: 2020/10/30 15:04:49 by kde-wint      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,22 +81,32 @@ static void		empty_gnl_buffer(const int fd)
 	char	*str;
 
 	str = NULL;
-	while (get_next_line(fd, &str) > 0)
+	if (fd > 2)
 	{
-		if (str != NULL)
-			ft_strdel(&str);
+		while (get_next_line(fd, &str) > 0)
+		{
+			if (str != NULL)
+				ft_strdel(&str);
+		}
 	}
 }
 
 int				ft_exit_asm(t_asm *asm_var, t_data *data, int ret)
 {
-	empty_gnl_buffer(asm_var->fd);
-	close(asm_var->fd);
-	close(asm_var->fd_rw);
-	free_ins(&data->ins_lst);
-	free_placeholder(&data->ins_placeholders);
-	free_label(&data->label_lst);
-	free_data(&data);
-	free_asm_var(&asm_var);
+	if (asm_var != NULL)
+	{
+		empty_gnl_buffer(asm_var->fd);
+		close(asm_var->fd);
+		close(asm_var->fd_rw);
+	}
+	if (data != NULL)
+	{
+		free_ins(&data->ins_lst);
+		free_placeholder(&data->ins_placeholders);
+		free_label(&data->label_lst);
+		free_data(&data);
+	}
+	if (asm_var != NULL)
+		free_asm_var(&asm_var);
 	return (ret);
 }

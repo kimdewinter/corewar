@@ -6,7 +6,7 @@
 /*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/10/30 12:18:51 by kde-wint      #+#    #+#                 */
-/*   Updated: 2020/10/30 13:08:23 by kde-wint      ########   odam.nl         */
+/*   Updated: 2020/10/30 14:06:03 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,15 +19,14 @@ static void	delete_players(t_player **players)
 	while (*players != NULL)
 	{
 		next = (*players)->next;
-		if ((*players)->filename != NULL)
+		if ((*players)->data != NULL)
 		{
-			free((*players)->filename);
-			(*players)->filename = NULL;
+			free ((*players)->data);
+			(*players)->data = NULL;
 		}
 		free(*players);
 		*players = next;
 	}
-	//ATTENTION: Should (*players)->data be freed?
 }
 
 static void	delete_cursors(t_cursor **cursors)

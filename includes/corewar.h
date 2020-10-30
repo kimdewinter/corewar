@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:16:12 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:21:17 by simoncleerd   ########   odam.nl         */
+/*   Updated: 2020/10/30 13:23:49 by simoncleerd   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -140,6 +140,7 @@ int						get_op_arg_size(int op, int arg);
 t_player				*get_id(t_env *game, int id);
 int						get_reg(t_env *game, int offset);
 int						get_val(t_env *game, int offset, size_t size);
+int						handle_error(t_env *game, const char *str);
 int						init_arena(t_env *game);
 void					init_cursors(t_env *game);
 int						is_valid_encode_arg(t_env *game, t_cursor *cur);

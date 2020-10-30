@@ -6,7 +6,7 @@
 #    By: kde-wint <kde-wint@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/09/18 13:55:17 by kde-wint      #+#    #+#                  #
-#    Updated: 2020/10/26 15:02:27 by kim           ########   odam.nl          #
+#    Updated: 2020/10/30 13:03:18 by kde-wint      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -67,6 +67,7 @@ SRC_COREWAR =	\
 		init_arena.c \
 		is_flag.c \
 		env.c \
+		handle_error.c \
 		op.c \
 		op_add.c \
 		op_aff.c \

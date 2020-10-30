@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/08/12 18:50:04 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/26 14:47:58 by kim           ########   odam.nl         */
+/*   Updated: 2020/10/30 13:37:14 by simoncleerd   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,13 @@ static void	assign_flag_id(t_env *game, t_player **rank)
 	while (walker)
 	{
 		if (walker->rank_n > game->champ_count)
-			exit(ft_printf("[Error] A player ID can not exceed " \
-			"the number of players\n"));
+			handle_error(game, "[Error] Usage: ./corewar [-dump number] \
+			[[-n number] file.cor] ...\n");
 		else if (walker->id == 0 && walker->rank_n != 0)
 		{
 			if (rank[walker->rank_n - 1] != NULL)
-				exit(ft_printf("[Error] Players can not have the " \
-				"same ID\n"));
+				handle_error(game, "[Error] Usage: ./corewar \
+				[-dump number] [[-n number] file.cor] ...\n");
 			walker->id = walker->rank_n;
 			rank[walker->id - 1] = walker;
 		}

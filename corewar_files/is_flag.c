@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:53:59 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:52:08 by simoncleerd   ########   odam.nl         */
+/*   Updated: 2020/10/30 14:22:44 by kde-wint      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,8 @@ static int	is_dump_flag(t_env *game, int *i)
 			if (n > 0)
 				game->flag_dump = n;
 			else
-				handle_error(game, "[Error] Dump number must be higher than 0\n");
+				handle_error(game,
+					"[Error] Dump number must be higher than 0\n");
 			*i = j;
 			return (TRUE);
 		}

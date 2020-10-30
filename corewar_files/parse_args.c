@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:13:24 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:08:46 by kde-wint      ########   odam.nl         */
+/*   Updated: 2020/10/30 14:25:15 by kde-wint      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,8 +75,9 @@ int			parse_args(t_env *game)
 		else if (is_player(game, i) == TRUE)
 			save_player(game, 0, i);
 		else
-			handle_error(game, "[Error] Usage: ./corewar [-dump number] [[-n number] \
-				file.cor] ...\n");
+			handle_error(game,
+				"[Error] Usage: ./corewar [-dump number] [[-n number] \
+file.cor]...\n");
 		i++;
 	}
 	return (1);

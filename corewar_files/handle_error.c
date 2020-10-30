@@ -6,7 +6,7 @@
 /*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/10/30 12:18:51 by kde-wint      #+#    #+#                 */
-/*   Updated: 2020/10/30 14:06:03 by lravier       ########   odam.nl         */
+/*   Updated: 2020/10/30 14:21:28 by kde-wint      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static void	delete_players(t_player **players)
 		next = (*players)->next;
 		if ((*players)->data != NULL)
 		{
-			free ((*players)->data);
+			free((*players)->data);
 			(*players)->data = NULL;
 		}
 		free(*players);

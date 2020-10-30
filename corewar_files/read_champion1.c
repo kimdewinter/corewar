@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/03 14:13:44 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:31:32 by lravier       ########   odam.nl         */
+/*   Updated: 2020/10/30 13:42:55 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,12 +58,12 @@ int		read_file(t_player *new, t_env *game)
 	fd = open(new->filename, O_RDONLY);
 	if (fd < 0)
 		handle_error(game, "[Error] Failed to open file\n");
-	read_magic_header(fd, new, game);
-	read_prog_name_length(fd, new, game);
-	read_null_bytes(fd, new, game);
+	read_magic_header(game, fd, new);
+	read_prog_name_length(game, fd, new);
+	read_null_bytes(game, fd, new);
 	read_prog_size(fd, new, game);
 	read_comment(fd, new, game);
-	read_null_bytes(fd, new, game);
+	read_null_bytes(game, fd, new);
 	read_champion_code(fd, new, game);
 	close(fd);
 	return (1);

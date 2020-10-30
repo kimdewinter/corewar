@@ -6,7 +6,7 @@
 /*   By: lravier <lravier@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/14 19:16:12 by lravier       #+#    #+#                 */
-/*   Updated: 2020/10/30 13:39:56 by lravier       ########   odam.nl         */
+/*   Updated: 2020/10/30 13:46:27 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -177,7 +177,7 @@ void					read_comment(int fd, t_player *new, t_env *game);
 int						read_file(t_player *new, t_env *game);
 void					read_prog_size(int fd, t_player *new, t_env *game);
 void					read_magic_header(t_env *game, int fd, t_player *new);
-void					read_null_bytes(t_env *game, int fd, t_player *new);
+void					read_null_bytes(t_env *game, int fd);
 void					read_prog_name_length(t_env *game,
 												int fd,
 												t_player *new);

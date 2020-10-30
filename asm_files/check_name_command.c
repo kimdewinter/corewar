@@ -6,7 +6,7 @@
 /*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/18 10:50:53 by kde-wint      #+#    #+#                 */
-/*   Updated: 2020/10/26 14:54:49 by kim           ########   odam.nl         */
+/*   Updated: 2020/10/30 11:35:35 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int *closing_quote_found, char *buff)
 	char	*closing_quote;
 	int		ret;
 
-	closing_quote = ft_strchr(buff, '"');
+	closing_quote = ft_strchr(buff, QUOTATION_CHAR);
 	if (closing_quote != NULL)
 	{
 		*closing_quote_found = 1;
@@ -87,8 +87,8 @@ static int			quote_if_two(t_data *data, char *command)
 	char	*tmp;
 	int		index;
 
-	name = ft_strchr(command, '"');
-	tmp = ft_strchr(&name[1], '"');
+	name = ft_strchr(command, QUOTATION_CHAR);
+	tmp = ft_strchr(&name[1], QUOTATION_CHAR);
 	index = (int)(tmp - name);
 	data->name_cmd = ft_strsub(name, 1, index - 1);
 	if (data->name_cmd == NULL)
@@ -107,7 +107,7 @@ char *command)
 	ret = SUCCESS;
 	if (data->name_cmd != NULL)
 		return (asm_error(CMD_ERR, DBL_NM, 0));
-	quote_count = ft_strchr_count(command, '"');
+	quote_count = ft_strchr_count(command, QUOTATION_CHAR);
 	if (quote_count == 0)
 		return (asm_error(SYNT_ERR, INV_CHAR, data->num_lines));
 	else if (quote_count == 1)

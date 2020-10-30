@@ -6,7 +6,7 @@
 /*   By: kde-wint <kde-wint@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/18 10:58:09 by kde-wint      #+#    #+#                 */
-/*   Updated: 2020/10/26 14:54:49 by kim           ########   odam.nl         */
+/*   Updated: 2020/10/30 11:35:24 by lravier       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int			finish_comment(t_data *data, char **comment, char *buff)
 	char	*found;
 	int		index;
 
-	last_quote = ft_strchr(buff, '"');
+	last_quote = ft_strchr(buff, QUOTATION_CHAR);
 	index = (int)(last_quote - buff);
 	found = ft_strsub(buff, 0, index);
 	if (found == NULL)
@@ -44,7 +44,7 @@ int			finish_name(t_data *data, char **name, char *buff)
 	char	*found;
 	int		index;
 
-	last_quote = ft_strchr(buff, '"');
+	last_quote = ft_strchr(buff, QUOTATION_CHAR);
 	index = (int)(last_quote - buff);
 	found = ft_strsub(buff, 0, index);
 	if (found == NULL)

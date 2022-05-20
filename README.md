@@ -5,9 +5,9 @@ Written in C, tested and compatible with macOS 10.14.6 and Ubuntu 21.04<br/>
 It is inspired by the [original Core War](https://en.wikipedia.org/wiki/Core_War "original Core War") by D.G. Jones & A.K. Dewdney.
 
 ## Quick Start (download & run)
-- download the latest release
-- unzip the source code
-- place the executables ("asm" and "corewar") in the root folder of the unzipped source code
+- go to the latest release
+- download and unzip the source code
+- download and unzip the executables ("asm" and "corewar") into the root folder of the unzipped source code
 - navigate to it in your command shell
 - if necessary, set permissions on the executables, eg:
 >chmod 777 asm corewar

@@ -1,32 +1,44 @@
 # Corewar
-A game for programmer-connoiseurs of assembly, bytecode & strategy.
+This was a school project and game for those who enjoy assembly, bytecode & strategy.
 
-Written in C, tested and compatible with macOS and Linux.<br/>
-It is a school project inspired by the original Core War by D.G. Jones & A.K. Dewdney.
+Written in C, tested and compatible with macOS 10.14.6 and Ubuntu 21.04<br/>
+It is inspired by the [original Core War](https://en.wikipedia.org/wiki/Core_War "original Core War") by D.G. Jones & A.K. Dewdney.
 
-## Quick Start
+## Quick Start (download & run)
+- download the latest release
+- navigate to it in your command shell
+- assemble the champions with:
+>./asm champs/kire_carpetbomber.s<br/>
+>./asm champs/zork.s
+- if you run into difficulties, try installing [the ncurses library](https://ostechnix.com/how-to-install-ncurses-library-in-linux/ "the ncurses library")
+- make it fight in the arena with:
+>./corewar champs/kire_carpetbomber.cor champs/zork.cor
+
+## Quick Start (compile & run)
+- install Make and GCC
 - clone the repository
-- if necessary, install [the ncurses library](https://ostechnix.com/how-to-install-ncurses-library-in-linux/ "the ncurses library")
+- navigate to it in your command shell
 - compile the assembler and virtual machine with:
 >make 
+- if you run into difficulties, try installing [the ncurses library](https://ostechnix.com/how-to-install-ncurses-library-in-linux/ "the ncurses library")
 - assemble the champions with:
 >./asm champs/kire_carpetbomber.s<br/>
 >./asm champs/zork.s
 - make it fight in the arena with:
 >./corewar champs/kire_carpetbomber.cor champs/zork.cor
 
-### Compile options
+### Compilation options
 >make<br/>
 >make re<br/>
 >make clean<br/>
 >make fclean<br/>
 
-### Corewar virtual machine flags
+## Corewar virtual machine flags
 Dump memory after N cycles then exits:
->./corewar -dump N
+>./corewar -dump 1000 champs/kire_carpetbomber.cor champs/zork.cor
 
 Print output from "aff" (Default is to hide it):
->./corewar -a
+>./corewar -a champs/kire_carpetbomber.cor champs/zork.cor
 
 ## Extended Explanation
 This project consists out of two modules, the ASM assembler and the Corewar virtual machine.<br/>
@@ -58,6 +70,4 @@ The virtual machine reads the code from left to right, and executes it according
 Code can also jump back to the left with a `zjump` command, which forms a loop.<br/>
 
 The syntax on how to write a champion and how to understand and interpret bytecode is somewhat complex.<br/>
-For more information you can read through [the assignment PDF](https://docdro.id/9pVK3Wi "the assignment PDF").
-
-For more information on the original Core War, read [this](https://en.wikipedia.org/wiki/Core_War "this") wikipedia article.
+For more information you can read through the assignment PDF, included in the root of the repository.

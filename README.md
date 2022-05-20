@@ -6,7 +6,11 @@ It is inspired by the [original Core War](https://en.wikipedia.org/wiki/Core_War
 
 ## Quick Start (download & run)
 - download the latest release
+- unzip the source code
+- place the executables ("asm" and "corewar") in the root folder of the unzipped source code
 - navigate to it in your command shell
+- if necessary, set permissions on the executables, eg:
+>chmod 777 asm corewar
 - assemble the champions with:
 >./asm champs/kire_carpetbomber.s<br/>
 >./asm champs/zork.s
